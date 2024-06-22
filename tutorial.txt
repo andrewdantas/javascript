@@ -97,3 +97,4 @@ git clone link_do_repositório (clonar o repositório na máquina local)
 Observações: digitar os comandos na raiz do repositório
 git status (verifica o status do repositório local em relação ao GitHub)
 git add . (adiciona todas as alterações)
+git commit -m "fundamentos"
