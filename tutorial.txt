@@ -70,8 +70,7 @@ NÃO USAR == OU !=
 Operadores lógicos:
 Dica:
 professorjosedeassis.github.io/simulador
-
-_____________________________________________________
+____________________________________________________
 Estudo das variáveis
 - String (caracteres)
 - Numéricas (números)
@@ -81,6 +80,17 @@ Obs: No JS as variáveis são dinânicamente tipadas
 const (criar uma constante)
 var ou let (criar uma variável)
 ATENÇÂO!!!! Não usar jamais o var
+
+Tipagem dinânica:
+No JavaScript o tipo string é definido quando o conteúdo da variável estiver entre aspas ""
+
+Variáveis numéricas podem ser números inteiros e não inteiros
+Obervação , (vírgula é um caractere e não número)
+se necessário converter a entrada de dados de "," para "."
+.replace(",",".")
+
+Na entrada de dados numéricos via terminal ou formulário é necessário converter para números
+classe Number
 
 _____________________________________________________
 Git e GitHub
