@@ -30,7 +30,7 @@ Boas Práticas na Programação:
  seta pra cima (repete os comandos)
  <tab> completa o comando
 
-_____________________________________________________
+______________________________________________________
 VSCode: Dicas
 Combinação de teclas 
     Alt + Shift + F //alinhamento do código
@@ -49,7 +49,7 @@ Não podemos usar aspas diferentes " ' ou ' "
 - Dicas: Usar em textos "aspas"
        Usar em bibliotecas ou caminhos 'apóstrofes'
 
-_____________________________________________________
+______________________________________________________
 Operadores
 
 Observações:
@@ -70,7 +70,8 @@ NÃO USAR == OU !=
 Operadores lógicos:
 Dica:
 professorjosedeassis.github.io/simulador
-____________________________________________________
+______________________________________________________
+
 Estudo das variáveis
 - String (caracteres)
 - Numéricas (números)
@@ -92,9 +93,8 @@ se necessário converter a entrada de dados de "," para "."
 Na entrada de dados numéricos via terminal ou formulário é necessário converter para números
 classe Number
 
-_____________________________________________________
+______________________________________________________
 Git e GitHub
-
 
 Configurando o git
 - Instalar o git
@@ -108,3 +108,32 @@ Observações: digitar os comandos na raiz do repositório
 git status (verifica o status do repositório local em relação ao GitHub)
 git add . (adiciona todas as alterações)
 git commit -m "descrição das alterações"
+
+
+______________________________________________________
+NODE - Plataforma para uso do JS fora do browser (navegador)
+ |__ V8 (google chromium)
+ |__ bibliotecas C / C++
+ |__ pacotes npm (node packager manager)
+ npm ls (lista os pacotes)
+ npm i ou npm install (instala um pacote)
+ npm r nome_do_pacote (remove o pacote)
+
+ Pacote = Módulo = Bibliotecas
+ Para usar um pacote é necessário fazer a importação no iníco do código (logo abaixo do cabeçalho de documentação)
+
+ _____________________________________________________
+Algorítmo: "receita de bolo"
+
+Exemplo 1:
+Objetivo: Calcular a média de 2 notas
+
+            nota 1 + nota 2
+média = _______________________
+                   2
+
+Variáveis: nota1, nota2, media
+
+Entrada: nota1, nota2
+Processamento: media = (nota1 + nota2) / 2
+Saída: media
