@@ -137,3 +137,103 @@ Variáveis: nota1, nota2, media
 Entrada: nota1, nota2
 Processamento: media = (nota1 + nota2) / 2
 Saída: media
+
+______________________________________________________
+Exemplo 2:
+Desenvolver um app modo console para calculo de porcentagem:
+Ex: 10% de 200 = 20
+     x      y     valor
+
+Algorítmo: 
+
+y   ---------- 100%
+valor --------  x
+
+valor * 100 = y * x
+
+           y * x       
+valor = ____________ 
+            100     
+
+valor = (x * y) / 100
+
+//variáveis
+x,y,valor
+
+//Entrada
+x,y
+
+//Processamento
+valor = (x * y) / 100
+
+//Saída
+valor
+
+Exercício 1:
+Desenvolver um app modo console para calcular o valor do desconto:
+Ex:
+valor total: 200.00
+desconto: 5%
+total com desconto: 190.00
+
+valor com desconto = valor total - desconto
+
+//variáveis
+total, desconto,valor,totaldesconto
+
+//Entrada
+total, desconto
+
+//Processamento 1
+valor = (desconto * total) / 100
+
+//Saída 1
+valor
+
+//Processamento 2
+totaldesconto = total - valor
+
+//Saída
+totaldesconto
+
+Exercício 2: Desenvolver um app no console para conversão de moeda (real para euro)
+
+cotação: 5,89
+
+Ex:
+Valor do real: R$ 10,00
+Valor do euro: E$ 1,70
+
+//variáveis
+real,euro,total
+
+//Entrada
+real,euro
+
+//Processamento
+total = real / euro
+
+//Saída
+total
+
+
+
+
+Exercício 3: Calcular o desconto do vale transporte
+
+//variáveis
+salario, vt, totaldesconto
+
+//entrada
+salario, vt
+
+//Processamento 1
+totaldesconto = (salario * vt) / 100
+
+//Saída
+totaldesconto
+
+//Processamento 2
+salario = totaldesconto - salario
+
+
