@@ -236,4 +236,3 @@ totaldesconto
 //Processamento 2
 salario = totaldesconto - salario
 
-
