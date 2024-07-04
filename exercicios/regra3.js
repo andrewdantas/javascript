@@ -21,3 +21,4 @@ console.log(y)
 valor = (x * y) / 100
 //saída
 console.log(`${x}% de ${y} = ${valor.toFixed(2)}`)
+

@@ -28,3 +28,4 @@ totaldesconto = total - valor
 
 //saída 2
 console.log(`Valor final: R$ ${totaldesconto.toFixed(2)}`)
+

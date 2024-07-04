@@ -19,3 +19,4 @@ total = real / euro
 
 //saída
 console.log(`R$ ${real.toFixed(2)} equivalem = € ${total.toFixed(2)} euros `)
+
