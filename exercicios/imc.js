@@ -22,7 +22,7 @@ nome = input.question("Digite o seu nome: ")
 idade = Number(input.question("Digite a sua idade: "))
 peso = Number(input.question("Digite o seu peso em Kg: ").replace(",", "."))
 altura = Number(input.question("Digite a sua altura em Cm: "))
-console.log()
+console.log("")
 console.log("------------------------------")
 
 //processamento
@@ -49,5 +49,5 @@ if (imc < 18.5) {
 } else {
     console.log("Obesidade III (mórbida)".red.bold)
 }
-console.log()
+console.log("")
 console.log("------------------------------")
