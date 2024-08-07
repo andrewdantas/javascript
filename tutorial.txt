@@ -109,7 +109,6 @@ git status (verifica o status do repositório local em relação ao GitHub)
 git add . (adiciona todas as alterações)
 git commit -m "descrição das alterações"
 
-
 ______________________________________________________
 NODE - Plataforma para uso do JS fora do browser (navegador)
  |__ V8 (google chromium)
@@ -196,6 +195,7 @@ totaldesconto = total - valor
 //Saída
 totaldesconto
 
+______________________________________________________
 Exercício 2: Desenvolver um app no console para conversão de moeda (real para euro)
 
 cotação: 5,89
@@ -216,9 +216,7 @@ total = real / euro
 //Saída
 total
 
-
-
-
+______________________________________________________
 Exercício 3: Calcular o desconto do vale transporte
 
 //variáveis
@@ -236,3 +234,53 @@ totaldesconto
 //Processamento 2
 salario = totaldesconto - salario
 
+____________________________________________________
+Estruras de controle
+
+condicionais
+if if-else (encadeamento/aninhamento else-if) switch-case
+
+repetições:
+for while do-while
+
+if (condição) {
+    //condição verdadeira
+}
+
+if (condição) {
+    //condição verdadeira
+} else {
+    //condição falsa
+}
+
+Observações:
+1) Sempre uma resposta será exibida independente da condição
+2) Não pode existir uma condição verdadeira e fala ao mesmo tempo
+
+Exemplo de uso da estrutura else-if
+No exemplo cálculo da média estabelecer as seguintes condições
+1) Se o aluno tiver média menor que 2 (REPROVADO)
+2) Se a média do aluno estive entre 2 (inclusive) e 5 (não incluir o 5) (RECUPERAÇÂO)
+3) Se a média for igual ou superior a 5 (APROVADO)
+
+Resumindo:
+if (condição 1) {
+    //condição 1 verdadeira
+} else if (condição 2) {
+    //condição 2 verdadeira
+} else if (condição 3) {
+    //condição 3 verdadeira
+} else {
+    //nenhuma das condições é verdadeiras
+}
+
+Obs: O else final não é obrigatório
+
+Exercício 3:
+No Brasil, o voto pode ser proibido, obrigatório ou facultativo de acordo com os seguintes critérios:
+
+idade menor que 16 (proibido votar)
+idade  entre 18 e 70 (incluindo 18 e 70) (voto obrigatório)
+16,17 ou acima de 70 (voto é opcioanal)
+
+Desenvolva no console do JS um app para verificar em função da idade a obrigação ou não de votar.
