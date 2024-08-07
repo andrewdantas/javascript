@@ -7,4 +7,4 @@
 const colors = require('colors')
 
 console.clear() //limpar a tela
-console.log("Hello World".inverse.italic)
+console.log("Hello World".magenta.italic)
