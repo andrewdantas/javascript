@@ -1,5 +1,5 @@
 /**
- * Estrtura de dados
+ * Estrutura de dados
  * Array (vetor)
  * @author Andrew Dantas
  */
